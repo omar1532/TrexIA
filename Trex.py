@@ -86,7 +86,7 @@ class Dinosaur:
 
     def jump(self):
         self.image = self.jump_img
-        self.dino_rect.y -= self.jump_vel * 6
+        self.dino_rect.y -= self.jump_vel * 7
         self.jump_vel -= 0.8
         if self.jump_vel < - self.JUMP_VEL:
             self.dino_jump = False
